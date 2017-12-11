@@ -1,0 +1,23 @@
+{
+  "name": "coralrobot",
+  "version": "1.0.0",
+  "description": "Coral Web Crawler",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^0.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daser/CoralRobot.git"
+  },
+  "author": "Nanichang Katzing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daser/CoralRobot/issues"
+  },
+  "homepage": "https://github.com/daser/CoralRobot#readme"
+}
