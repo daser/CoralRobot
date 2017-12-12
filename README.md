@@ -14,4 +14,4 @@ $ node index.js
 
 ## Contributors
 
-Nanichang Katzing
+[Nanichang Katzing](https://github.com/nanichang)
