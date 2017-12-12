@@ -1,12 +1,12 @@
 const puppeteer = require('puppeteer');
 
 const config = {
-    SITE_URL: "file:///home/nani/Desktop/puppet/sitedemo/Horse%20Racing%20Betting%20&%20Odds_%20Horse%20Racing%20Results%20_%20Coral.html",
+    SITE_URL: "http://sports.coral.co.uk/horse-racing",
     todaySelector: "#sub_nav_body > div > div.race-list.today-block > div.second-tabs-content > div > div",
 }
 
 async function run(){
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
     await page.goto(config.SITE_URL, {waitUntil: 'networkidle2', timeout: 80000});
 
