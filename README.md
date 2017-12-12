@@ -1,10 +1,17 @@
-# Ruuning Puppeteer Crawler
-	##Installation
-	`$ npm int`
-	`$ npm install --save puppeteer`
+## Installation
 
-	##Running Crawler
-	'$ node index.js'
+```
+$ git@github.com:daser/CoralRobot.git
+$ cd CoralRobot
+$ npm install
+```
 
-# CoralRobot
-NANICHANG KATZING
+## Running Crawler
+
+```
+$ node index.js
+```
+
+## Contributors
+
+Nanichang Katzing
