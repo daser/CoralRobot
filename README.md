@@ -1,7 +1,7 @@
 ## Installation
 
 ```
-$ git@github.com:daser/CoralRobot.git
+$ git clone git@github.com:daser/CoralRobot.git
 $ cd CoralRobot
 $ npm install
 ```
