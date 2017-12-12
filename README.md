@@ -1,4 +1,4 @@
-# Ruuning Puppeteer Crawler
+# Running Puppeteer Crawler
 	##Installation
 	`$ npm int`
 	`$ npm install --save puppeteer`
